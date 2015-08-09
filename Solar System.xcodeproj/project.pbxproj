@@ -42,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		129FC66A1B781CFC00595716 /* Solar System.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solar System.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		129FC66B1B781CFC00595716 /* Solar SystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Solar SystemTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12BFFFE11B7811C00013500C /* ASTPlanet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASTPlanet.h; path = Model/ASTPlanet.h; sourceTree = "<group>"; };
 		12BFFFE21B7811C00013500C /* ASTPlanet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASTPlanet.m; path = Model/ASTPlanet.m; sourceTree = "<group>"; };
 		12BFFFE31B7811C00013500C /* ASTSolarSystemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASTSolarSystemModel.h; path = Model/ASTSolarSystemModel.h; sourceTree = "<group>"; };
@@ -51,7 +53,6 @@
 		12BFFFE91B7811DB0013500C /* ASTCustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ASTCustomTableViewCell.xib; path = View/ASTCustomTableViewCell.xib; sourceTree = "<group>"; };
 		12BFFFEC1B7811EA0013500C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Controller/ViewController.h; sourceTree = "<group>"; };
 		12BFFFED1B7811EA0013500C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Controller/ViewController.m; sourceTree = "<group>"; };
-		12D907671B77979600077909 /* Solar System.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Solar System.app"; path = "/Users/macbookpro/Desktop/SolarSystem/build/Debug/Solar System.app"; sourceTree = "<absolute>"; };
 		12D9076B1B77979600077909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12D9076C1B77979600077909 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		12D9076E1B77979600077909 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -59,7 +60,6 @@
 		12D907751B77979600077909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12D907771B77979600077909 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		12D9077A1B77979600077909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		12D907801B77979600077909 /* Solar SystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Solar SystemTests.xctest"; path = "/Users/macbookpro/Desktop/SolarSystem/build/Debug-iphoneos/Solar SystemTests.xctest"; sourceTree = "<absolute>"; };
 		12D907851B77979600077909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12D907861B77979600077909 /* SolarSystemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SolarSystemTests.m; sourceTree = "<group>"; };
 		12F001251B78179300C87152 /* Earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Earth.png; sourceTree = "<group>"; };
@@ -98,6 +98,8 @@
 			children = (
 				12D907691B77979600077909 /* SolarSystem */,
 				12D907831B77979600077909 /* SolarSystemTests */,
+				129FC66A1B781CFC00595716 /* Solar System.app */,
+				129FC66B1B781CFC00595716 /* Solar SystemTests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -217,7 +219,7 @@
 			);
 			name = "Solar System";
 			productName = SolarSystem;
-			productReference = 12D907671B77979600077909 /* Solar System.app */;
+			productReference = 129FC66A1B781CFC00595716 /* Solar System.app */;
 			productType = "com.apple.product-type.application";
 		};
 		12D9077F1B77979600077909 /* Solar SystemTests */ = {
@@ -235,7 +237,7 @@
 			);
 			name = "Solar SystemTests";
 			productName = SolarSystemTests;
-			productReference = 12D907801B77979600077909 /* Solar SystemTests.xctest */;
+			productReference = 129FC66B1B781CFC00595716 /* Solar SystemTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -478,7 +480,7 @@
 				INFOPLIST_FILE = SolarSystemTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "Solar SystemTests";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SolarSystem.app/SolarSystem";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solar System.app/Solar System";
 			};
 			name = Debug;
 		};
@@ -493,7 +495,7 @@
 				INFOPLIST_FILE = SolarSystemTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "Solar SystemTests";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SolarSystem.app/SolarSystem";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solar System.app/Solar System";
 			};
 			name = Release;
 		};
