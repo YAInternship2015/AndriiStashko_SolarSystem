@@ -51,7 +51,7 @@
 		12BFFFE91B7811DB0013500C /* ASTCustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ASTCustomTableViewCell.xib; path = View/ASTCustomTableViewCell.xib; sourceTree = "<group>"; };
 		12BFFFEC1B7811EA0013500C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Controller/ViewController.h; sourceTree = "<group>"; };
 		12BFFFED1B7811EA0013500C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Controller/ViewController.m; sourceTree = "<group>"; };
-		12D907671B77979600077909 /* Solar System.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solar System.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12D907671B77979600077909 /* Solar System.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Solar System.app"; path = "/Users/macbookpro/Desktop/SolarSystem/build/Debug/Solar System.app"; sourceTree = "<absolute>"; };
 		12D9076B1B77979600077909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12D9076C1B77979600077909 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		12D9076E1B77979600077909 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 		12D907751B77979600077909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12D907771B77979600077909 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		12D9077A1B77979600077909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		12D907801B77979600077909 /* Solar SystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Solar SystemTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12D907801B77979600077909 /* Solar SystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Solar SystemTests.xctest"; path = "/Users/macbookpro/Desktop/SolarSystem/build/Debug-iphoneos/Solar SystemTests.xctest"; sourceTree = "<absolute>"; };
 		12D907851B77979600077909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12D907861B77979600077909 /* SolarSystemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SolarSystemTests.m; sourceTree = "<group>"; };
 		12F001251B78179300C87152 /* Earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Earth.png; sourceTree = "<group>"; };
@@ -98,17 +98,7 @@
 			children = (
 				12D907691B77979600077909 /* SolarSystem */,
 				12D907831B77979600077909 /* SolarSystemTests */,
-				12D907681B77979600077909 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		12D907681B77979600077909 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				12D907671B77979600077909 /* Solar System.app */,
-				12D907801B77979600077909 /* Solar SystemTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		12D907691B77979600077909 /* SolarSystem */ = {
@@ -276,7 +266,7 @@
 				Base,
 			);
 			mainGroup = 12D9075E1B77979600077909;
-			productRefGroup = 12D907681B77979600077909 /* Products */;
+			productRefGroup = 12D9075E1B77979600077909;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -456,6 +446,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)";
 				INFOPLIST_FILE = SolarSystem/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "Solar System";
