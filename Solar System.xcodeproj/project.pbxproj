@@ -18,17 +18,17 @@
 		12BE03871B77F953001857D7 /* Sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 12BE037C1B77F953001857D7 /* Sun.png */; };
 		12BE03881B77F953001857D7 /* Uranus.png in Resources */ = {isa = PBXBuildFile; fileRef = 12BE037D1B77F953001857D7 /* Uranus.png */; };
 		12BE03891B77F953001857D7 /* Venus.png in Resources */ = {isa = PBXBuildFile; fileRef = 12BE037E1B77F953001857D7 /* Venus.png */; };
+		12BFFFE51B7811C00013500C /* ASTPlanet.m in Sources */ = {isa = PBXBuildFile; fileRef = 12BFFFE21B7811C00013500C /* ASTPlanet.m */; };
+		12BFFFE61B7811C00013500C /* ASTSolarSystemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 12BFFFE41B7811C00013500C /* ASTSolarSystemModel.m */; };
+		12BFFFEA1B7811DB0013500C /* ASTCustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 12BFFFE81B7811DB0013500C /* ASTCustomTableViewCell.m */; };
+		12BFFFEB1B7811DB0013500C /* ASTCustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12BFFFE91B7811DB0013500C /* ASTCustomTableViewCell.xib */; };
+		12BFFFEE1B7811EA0013500C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12BFFFED1B7811EA0013500C /* ViewController.m */; };
 		12D9076D1B77979600077909 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D9076C1B77979600077909 /* main.m */; };
 		12D907701B77979600077909 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D9076F1B77979600077909 /* AppDelegate.m */; };
-		12D907731B77979600077909 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D907721B77979600077909 /* ViewController.m */; };
 		12D907761B77979600077909 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12D907741B77979600077909 /* Main.storyboard */; };
 		12D907781B77979600077909 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12D907771B77979600077909 /* Images.xcassets */; };
 		12D9077B1B77979600077909 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12D907791B77979600077909 /* LaunchScreen.xib */; };
 		12D907871B77979600077909 /* SolarSystemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D907861B77979600077909 /* SolarSystemTests.m */; };
-		12D907921B779B4200077909 /* ASTPlanet.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D907911B779B4200077909 /* ASTPlanet.m */; };
-		12D907B11B77AA3100077909 /* ASTSolarSystemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D907B01B77AA3100077909 /* ASTSolarSystemModel.m */; };
-		12D907B31B77E15000077909 /* ASTCustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12D907B21B77E15000077909 /* ASTCustomTableViewCell.xib */; };
-		12D907B61B77E31C00077909 /* ASTCustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D907B51B77E31C00077909 /* ASTCustomTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,26 +53,26 @@
 		12BE037C1B77F953001857D7 /* Sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Sun.png; path = "../../../resized-images/Sun.png"; sourceTree = "<group>"; };
 		12BE037D1B77F953001857D7 /* Uranus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Uranus.png; path = "../../../resized-images/Uranus.png"; sourceTree = "<group>"; };
 		12BE037E1B77F953001857D7 /* Venus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Venus.png; path = "../../../resized-images/Venus.png"; sourceTree = "<group>"; };
+		12BFFFE11B7811C00013500C /* ASTPlanet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASTPlanet.h; path = Model/ASTPlanet.h; sourceTree = "<group>"; };
+		12BFFFE21B7811C00013500C /* ASTPlanet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASTPlanet.m; path = Model/ASTPlanet.m; sourceTree = "<group>"; };
+		12BFFFE31B7811C00013500C /* ASTSolarSystemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASTSolarSystemModel.h; path = Model/ASTSolarSystemModel.h; sourceTree = "<group>"; };
+		12BFFFE41B7811C00013500C /* ASTSolarSystemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASTSolarSystemModel.m; path = Model/ASTSolarSystemModel.m; sourceTree = "<group>"; };
+		12BFFFE71B7811DB0013500C /* ASTCustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASTCustomTableViewCell.h; path = View/ASTCustomTableViewCell.h; sourceTree = "<group>"; };
+		12BFFFE81B7811DB0013500C /* ASTCustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASTCustomTableViewCell.m; path = View/ASTCustomTableViewCell.m; sourceTree = "<group>"; };
+		12BFFFE91B7811DB0013500C /* ASTCustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ASTCustomTableViewCell.xib; path = View/ASTCustomTableViewCell.xib; sourceTree = "<group>"; };
+		12BFFFEC1B7811EA0013500C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Controller/ViewController.h; sourceTree = "<group>"; };
+		12BFFFED1B7811EA0013500C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Controller/ViewController.m; sourceTree = "<group>"; };
 		12D907671B77979600077909 /* Solar System.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solar System.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12D9076B1B77979600077909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12D9076C1B77979600077909 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		12D9076E1B77979600077909 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		12D9076F1B77979600077909 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		12D907711B77979600077909 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		12D907721B77979600077909 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		12D907751B77979600077909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12D907771B77979600077909 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		12D9077A1B77979600077909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		12D907801B77979600077909 /* Solar SystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Solar SystemTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12D907851B77979600077909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12D907861B77979600077909 /* SolarSystemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SolarSystemTests.m; sourceTree = "<group>"; };
-		12D907901B779B4200077909 /* ASTPlanet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASTPlanet.h; sourceTree = "<group>"; };
-		12D907911B779B4200077909 /* ASTPlanet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASTPlanet.m; sourceTree = "<group>"; };
-		12D907AF1B77AA3100077909 /* ASTSolarSystemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASTSolarSystemModel.h; sourceTree = "<group>"; };
-		12D907B01B77AA3100077909 /* ASTSolarSystemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASTSolarSystemModel.m; sourceTree = "<group>"; };
-		12D907B21B77E15000077909 /* ASTCustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ASTCustomTableViewCell.xib; path = ../ASTCustomTableViewCell.xib; sourceTree = "<group>"; };
-		12D907B41B77E31C00077909 /* ASTCustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASTCustomTableViewCell.h; path = ../ASTCustomTableViewCell.h; sourceTree = "<group>"; };
-		12D907B51B77E31C00077909 /* ASTCustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASTCustomTableViewCell.m; path = ../ASTCustomTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,11 +156,11 @@
 		12D907931B779D0A00077909 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				12BFFFE11B7811C00013500C /* ASTPlanet.h */,
+				12BFFFE21B7811C00013500C /* ASTPlanet.m */,
+				12BFFFE31B7811C00013500C /* ASTSolarSystemModel.h */,
+				12BFFFE41B7811C00013500C /* ASTSolarSystemModel.m */,
 				12D907981B77A8D500077909 /* Images */,
-				12D907901B779B4200077909 /* ASTPlanet.h */,
-				12D907911B779B4200077909 /* ASTPlanet.m */,
-				12D907AF1B77AA3100077909 /* ASTSolarSystemModel.h */,
-				12D907B01B77AA3100077909 /* ASTSolarSystemModel.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -168,9 +168,9 @@
 		12D907941B779D4E00077909 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				12D907B41B77E31C00077909 /* ASTCustomTableViewCell.h */,
-				12D907B51B77E31C00077909 /* ASTCustomTableViewCell.m */,
-				12D907B21B77E15000077909 /* ASTCustomTableViewCell.xib */,
+				12BFFFE71B7811DB0013500C /* ASTCustomTableViewCell.h */,
+				12BFFFE81B7811DB0013500C /* ASTCustomTableViewCell.m */,
+				12BFFFE91B7811DB0013500C /* ASTCustomTableViewCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -178,8 +178,8 @@
 		12D907971B779D6100077909 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				12D907711B77979600077909 /* ViewController.h */,
-				12D907721B77979600077909 /* ViewController.m */,
+				12BFFFEC1B7811EA0013500C /* ViewController.h */,
+				12BFFFED1B7811EA0013500C /* ViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -292,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12BE03831B77F953001857D7 /* Moon.png in Resources */,
+				12BFFFEB1B7811DB0013500C /* ASTCustomTableViewCell.xib in Resources */,
 				12BE03851B77F953001857D7 /* Pluto.png in Resources */,
 				12BE03891B77F953001857D7 /* Venus.png in Resources */,
 				12BE03861B77F953001857D7 /* Saturn.png in Resources */,
@@ -299,7 +300,6 @@
 				12D9077B1B77979600077909 /* LaunchScreen.xib in Resources */,
 				12BE03811B77F953001857D7 /* Mars.png in Resources */,
 				12BE03871B77F953001857D7 /* Sun.png in Resources */,
-				12D907B31B77E15000077909 /* ASTCustomTableViewCell.xib in Resources */,
 				12BE03841B77F953001857D7 /* Neptune.png in Resources */,
 				12BE037F1B77F953001857D7 /* Earth.png in Resources */,
 				12BE03821B77F953001857D7 /* Mercury.png in Resources */,
@@ -323,12 +323,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12D907731B77979600077909 /* ViewController.m in Sources */,
-				12D907921B779B4200077909 /* ASTPlanet.m in Sources */,
-				12D907B11B77AA3100077909 /* ASTSolarSystemModel.m in Sources */,
+				12BFFFEE1B7811EA0013500C /* ViewController.m in Sources */,
+				12BFFFEA1B7811DB0013500C /* ASTCustomTableViewCell.m in Sources */,
+				12BFFFE51B7811C00013500C /* ASTPlanet.m in Sources */,
 				12D907701B77979600077909 /* AppDelegate.m in Sources */,
-				12D907B61B77E31C00077909 /* ASTCustomTableViewCell.m in Sources */,
 				12D9076D1B77979600077909 /* main.m in Sources */,
+				12BFFFE61B7811C00013500C /* ASTSolarSystemModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
