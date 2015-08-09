@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "12D907661B77979600077909"
-            BuildableName = "SolarSystem.app"
-            BlueprintName = "SolarSystem"
-            ReferencedContainer = "container:SolarSystem.xcodeproj">
+            BuildableName = "Solar System.app"
+            BlueprintName = "Solar System"
+            ReferencedContainer = "container:Solar System.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "12D907661B77979600077909"
-            BuildableName = "SolarSystem.app"
-            BlueprintName = "SolarSystem"
-            ReferencedContainer = "container:SolarSystem.xcodeproj">
+            BuildableName = "Solar System.app"
+            BlueprintName = "Solar System"
+            ReferencedContainer = "container:Solar System.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
