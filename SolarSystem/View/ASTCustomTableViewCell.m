@@ -10,8 +10,10 @@
 
 @implementation ASTCustomTableViewCell
 
+#warning @synthesize дл обычных свойств можно не писать, если не ошибаюсь, начиная с Xcode 5.
 @synthesize imageView = _imageView, nameLabel = _nameLabel;
 
+#warning пустые методы необходимо удалять
 - (void)awakeFromNib {
     // Initialization code
 }

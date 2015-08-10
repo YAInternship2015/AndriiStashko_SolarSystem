@@ -11,8 +11,10 @@
 
 @implementation ASTSolarSystemModel
 
+#warning @synthesize тебе не нужен здесь
 @synthesize planets = _planets;
 
+#warning Поработай над форматированием кода, ссылка на гайдлайны ялантис есть в гугл группе
 -(id) init
 {
     self = [super init];

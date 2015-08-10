@@ -17,7 +17,6 @@
 		12D907761B77979600077909 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12D907741B77979600077909 /* Main.storyboard */; };
 		12D907781B77979600077909 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12D907771B77979600077909 /* Images.xcassets */; };
 		12D9077B1B77979600077909 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12D907791B77979600077909 /* LaunchScreen.xib */; };
-		12D907871B77979600077909 /* SolarSystemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D907861B77979600077909 /* SolarSystemTests.m */; };
 		12F001301B78179300C87152 /* Earth.png in Resources */ = {isa = PBXBuildFile; fileRef = 12F001251B78179300C87152 /* Earth.png */; };
 		12F001311B78179300C87152 /* Jupiter.png in Resources */ = {isa = PBXBuildFile; fileRef = 12F001261B78179300C87152 /* Jupiter.png */; };
 		12F001321B78179300C87152 /* Mars.png in Resources */ = {isa = PBXBuildFile; fileRef = 12F001271B78179300C87152 /* Mars.png */; };
@@ -31,19 +30,8 @@
 		12F0013A1B78179300C87152 /* Venus.png in Resources */ = {isa = PBXBuildFile; fileRef = 12F0012F1B78179300C87152 /* Venus.png */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		12D907811B77979600077909 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 12D9075F1B77979600077909 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 12D907661B77979600077909;
-			remoteInfo = SolarSystem;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		129FC66A1B781CFC00595716 /* Solar System.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solar System.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		129FC66B1B781CFC00595716 /* Solar SystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Solar SystemTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12BFFFE11B7811C00013500C /* ASTPlanet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASTPlanet.h; path = Model/ASTPlanet.h; sourceTree = "<group>"; };
 		12BFFFE21B7811C00013500C /* ASTPlanet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASTPlanet.m; path = Model/ASTPlanet.m; sourceTree = "<group>"; };
 		12BFFFE31B7811C00013500C /* ASTSolarSystemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASTSolarSystemModel.h; path = Model/ASTSolarSystemModel.h; sourceTree = "<group>"; };
@@ -83,13 +71,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		12D9077D1B77979600077909 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -99,7 +80,6 @@
 				12D907691B77979600077909 /* SolarSystem */,
 				12D907831B77979600077909 /* SolarSystemTests */,
 				129FC66A1B781CFC00595716 /* Solar System.app */,
-				129FC66B1B781CFC00595716 /* Solar SystemTests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -222,24 +202,6 @@
 			productReference = 129FC66A1B781CFC00595716 /* Solar System.app */;
 			productType = "com.apple.product-type.application";
 		};
-		12D9077F1B77979600077909 /* Solar SystemTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 12D9078D1B77979600077909 /* Build configuration list for PBXNativeTarget "Solar SystemTests" */;
-			buildPhases = (
-				12D9077C1B77979600077909 /* Sources */,
-				12D9077D1B77979600077909 /* Frameworks */,
-				12D9077E1B77979600077909 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				12D907821B77979600077909 /* PBXTargetDependency */,
-			);
-			name = "Solar SystemTests";
-			productName = SolarSystemTests;
-			productReference = 129FC66B1B781CFC00595716 /* Solar SystemTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -252,10 +214,6 @@
 				TargetAttributes = {
 					12D907661B77979600077909 = {
 						CreatedOnToolsVersion = 6.4;
-					};
-					12D9077F1B77979600077909 = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 12D907661B77979600077909;
 					};
 				};
 			};
@@ -273,7 +231,6 @@
 			projectRoot = "";
 			targets = (
 				12D907661B77979600077909 /* Solar System */,
-				12D9077F1B77979600077909 /* Solar SystemTests */,
 			);
 		};
 /* End PBXProject section */
@@ -301,13 +258,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		12D9077E1B77979600077909 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -324,23 +274,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		12D9077C1B77979600077909 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				12D907871B77979600077909 /* SolarSystemTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		12D907821B77979600077909 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 12D907661B77979600077909 /* Solar System */;
-			targetProxy = 12D907811B77979600077909 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		12D907741B77979600077909 /* Main.storyboard */ = {
@@ -465,40 +399,6 @@
 			};
 			name = Release;
 		};
-		12D9078E1B77979600077909 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SolarSystemTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "Solar SystemTests";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solar System.app/Solar System";
-			};
-			name = Debug;
-		};
-		12D9078F1B77979600077909 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SolarSystemTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "Solar SystemTests";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solar System.app/Solar System";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -516,15 +416,6 @@
 			buildConfigurations = (
 				12D9078B1B77979600077909 /* Debug */,
 				12D9078C1B77979600077909 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		12D9078D1B77979600077909 /* Build configuration list for PBXNativeTarget "Solar SystemTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				12D9078E1B77979600077909 /* Debug */,
-				12D9078F1B77979600077909 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

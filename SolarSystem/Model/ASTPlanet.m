@@ -10,6 +10,7 @@
 
 @implementation ASTPlanet
 
+#warning поработай с форматированием кода
 - (id)initWithName:(NSString*)name planetImageName:(NSString*)imageName
 {
     self = [super init];

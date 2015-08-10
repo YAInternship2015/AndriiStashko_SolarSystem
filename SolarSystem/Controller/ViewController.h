@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+#warning вью контроллеру стоило дать более осмысленное название
 @interface ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
 @end
